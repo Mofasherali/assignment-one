@@ -41,13 +41,147 @@ body{
 }
 
 /* end top section */
+
+ /* start Mission section */
+.mission_section{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.mission_cards{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+
+}
+.mission_heading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.mission{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: pink;
+
+}
+.mission_img img{
+    width: 40%;
+}
+.miss-con-section{
+    padding: 10px;
+}
+
+/* end Mission section */
+
+/* Start Vission section */
+.vission_heading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.vission_cards{
+
+}
+.vission_section{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+.vission{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: pink;
+
+}
+.vission_img img{
+    width: 40%;
+}
+.viss-con-section{
+    padding: 10px;
+}
+
+/* end vission section */
+
+/* Start Goals section */
+.goals_heading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.goals_cards{
+
+}
+.goals_section{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+.goals{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #ffffcc;
+}
+.goals_img img{
+    width: 40%;
+}
+.goals-con-section{
+    padding: 10px;
+}
+/* end goals section */
+/* end Mission section */
+
+
+/* start three section */
+ .section_three{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+ }
+ .develop_content{
+    width: 50%;
+ }
+.develop_img img{
+    width: 300px;
+}
+/* end three section */
+
+
+/* start four section */
+.section_four{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+.globle_com{
+    width: 60%;
+}
+ 
+.globle_com_img img{
+    width: 300px;
+    margin-left: 20%;
+}
+
+/* end four section */
+/* Start Footer section */
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: relative;
     width: 100%;
+    height: auto;
     background-color: rgb(22, 17, 17);
     color: white;
     text-align: center;
     font-family: Luxurious Roman;
  }
+/* End footer section */
